@@ -1,0 +1,20 @@
+export default   {
+    "DE": "Entdecke unsere zeitlich begrenzten Angebote",
+    "AT": "Entdecke unsere zeitlich begrenzten Angebote",
+    "CHDE": "Entdecke unsere zeitlich begrenzten Angebote",
+    "CHFR": "Voir les offres à durée limitée",
+    "FR": "Voir les offres à durée limitée",
+    "IT": "Scopri le nostre offerte a tempo limitato",
+    "ES": "Consigue las ofertas por tiempo limitado",
+    "PT": "Veja as nossas ofertas por tempo limitado",
+    "NL": "Shop tijdelijke aanbiedingen",
+    "DK": "Se vores tidsbegrænsede tilbud",
+    "SE": "Se våra tillfälliga erbjudanden",
+    "NO": "Handle tidsbegrensede tilbud",
+    "FI": "Tutustu määräaikaisiin tarjouksiin",
+    "PL": "Zobacz oferty ograniczone czasowo",
+    "UK": "Shop time-limited offers",
+    "SK": "Prezrite si časovo obmedzené ponuky",
+    "CZ": "Objevte časově omezené nabídky",
+    "HU": "Nézd meg limitált ideig tartó ajánlatainkat"
+  }
