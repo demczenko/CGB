@@ -128,7 +128,7 @@ export async function landing({
   <a href="${getCategory(
     "https://www.beliani.ch/outdoor-furniture/garden-tables",
     { origin: false }
-  )}"><video style="display: block" autoplay="" loop="" muted="" playsinline="" disableremoteplayback="true" width="100%"><source src="https://www.pictureserver.net/images/pic/ff/a5/french_src_banner_picid_10454_image.mp4?ver=2" type="video/mp4"></video></a></div>
+  )}"><video style="max-width: 100%;" autoplay="" loop="" muted="" playsinline="" disableremoteplayback="true" ><source src="https://www.pictureserver.net/images/pic/ff/a5/french_src_banner_picid_10454_image.mp4?ver=2" type="video/mp4"></video></a></div>
 </div>
 `;
 }
