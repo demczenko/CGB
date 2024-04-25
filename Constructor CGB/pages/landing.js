@@ -52,16 +52,9 @@ export async function landing({
 
   return `
   <style>
-	.xyGridContainer{
-		display: grid;
-		grid-template-columns: 0.78fr 1.22fr;
-		grid-template-rows: 1fr;
-		align-content: center;
+	.cgbContainer{
+		display: flex;
 		align-items: center;
-		line-height: normal;
-	}
-  .xyGridContainer a{
-    color: #000000 !important;
 	}
 	.xyCTA{
 		text-decoration: none;
@@ -81,7 +74,8 @@ export async function landing({
 
 	.textContainer {
 		padding-left: min(24px, 2vw);
-		background-color: #FFEFDF;
+		background-color: #B6C3CB;
+		width: 100%;
 	}
 	
 	@media screen and (max-width: 1200px){
@@ -111,8 +105,8 @@ export async function landing({
 			font-size: 20px;
 		}
 	}
-	</style>
-	<div class="xyGridContainer" style="background-color:#FFEFDF;">
+</style>
+	<div class="cgbContainer" style="background-color:#FFEFDF;">
     <div class="textContainer">
       <p class="xyHeader1" style="margin: 0 0 12px 0!important;"><span data-order-text="0">${getField(
         translations.cgb,
