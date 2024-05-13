@@ -75,7 +75,6 @@ export async function landing({
 	.textContainer {
 		padding-left: min(24px, 2vw);
 		background-color: #B6C3CB;
-		width: 100%;
 	}
 	
 	@media screen and (max-width: 1200px){
@@ -124,7 +123,7 @@ export async function landing({
     "Cta"
   )}</span></p></a>
     </div>
-  <div>
+  <div style="width: 100%; display: flex; justify-content: end;">
   <a href="${getCategory(
     "https://www.beliani.ch/outdoor-furniture/garden-tables",
     { origin: false }
