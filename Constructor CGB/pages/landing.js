@@ -55,6 +55,7 @@ export async function landing({
 	.cgbContainer{
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 	}
 	.xyCTA{
 		text-decoration: none;
@@ -66,7 +67,7 @@ export async function landing({
 	}
 	.xyHeader1{
 		font-size: 45px;
-		line-height: 58px;
+		line-height: 1.25;
 	}
 	.xyHeader3{
 		font-size: 20px;
@@ -75,11 +76,13 @@ export async function landing({
 	.textContainer {
 		padding-left: min(24px, 2vw);
 		background-color: #B6C3CB;
+		min-width: 35%;
+		flex: 0 1 35%;
 	}
 	
 	@media screen and (max-width: 1200px){
 		.xyHeader1{
-			font-size: 38px;
+			font-size: 32px;
 		}
 		.xyHeader3{
 			font-size: 18px;
@@ -90,7 +93,7 @@ export async function landing({
 	}
 	@media screen and (max-width: 800px){
 		.xyHeader1{
-			font-size: 32px;
+			font-size: 30px;
 		}
 		.xyHeader3{
 			font-size: 14px;
@@ -123,11 +126,10 @@ export async function landing({
     "Cta"
   )}</span></p></a>
     </div>
-  <div style="width: 100%; display: flex; justify-content: end;">
   <a href="${getCategory(
     "https://www.beliani.ch/outdoor-furniture/garden-tables",
     { origin: false }
-  )}"><video style="max-width: 100%;" autoplay="" loop="" muted="" playsinline="" disableremoteplayback="true" ><source src="https://www.pictureserver.net/images/pic/ff/a5/french_src_banner_picid_10454_image.mp4?ver=2" type="video/mp4"></video></a></div>
+  )}"><video style="max-width: 100%;" autoplay="" loop="" muted="" playsinline="" disableremoteplayback="true" ><source src="https://www.pictureserver.net/images/pic/ff/a5/french_src_banner_picid_10454_image.mp4?ver=2" type="video/mp4"></video></a>
 </div>
 `;
 }
