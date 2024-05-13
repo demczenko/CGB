@@ -73,7 +73,7 @@ export async function landing({
 		font-size: 20px;
 	}
 
-	.textContainer {
+	.textContainer1 {
 		padding-left: min(24px, 2vw);
 		min-width: 35%;
 		flex: 0 1 35%;
@@ -108,7 +108,7 @@ export async function landing({
 	}
 </style>
 	<div class="cgbContainer" style="background-color:#FFEFDF;">
-    <div class="textContainer">
+    <div class="textContainer1">
       <p class="xyHeader1" style="margin: 0 0 12px 0!important;"><span data-order-text="0">${getField(
         translations.cgb,
         "Up to"
