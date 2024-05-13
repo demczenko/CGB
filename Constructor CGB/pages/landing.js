@@ -51,7 +51,7 @@ export async function landing({
   };
 
   return `
-  <style>
+ <style>
 	.cgbContainer{
 		display: flex;
 		align-items: center;
@@ -75,7 +75,6 @@ export async function landing({
 
 	.textContainer {
 		padding-left: min(24px, 2vw);
-		background-color: #B6C3CB;
 		min-width: 35%;
 		flex: 0 1 35%;
 	}
